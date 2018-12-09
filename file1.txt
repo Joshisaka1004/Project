@@ -1,10 +1,11 @@
+// Funktion mit einem Parameter und ohne Return-Wert, gibt nur einen Konsolenergebnis aufgrund des print-Befehls aus.
+// In Swift ist das Schlüsselwort für eine Funktion "func"; calcArea ist wie bei Konstanten und Variablen ein nahezu frei wählbarer Name für die Funktion, in runden Klammern wird nun die Liste der Parameter angegeben, hier handelt es sich um einen Parameter namens "width", der vom Datentyp Double ist.
+// Innerhalb der geschweiften Klammern befindet sich der Funktionsbody, in dem die Anweisungen der Funktion stehen, hier ein simpler print-Befehl zur Konsolenausgabe; schließlich wird dann die Funktion mit dem Wert "8" für den Parameter width aufgerufen ("gecallt")
 
 func calcArea(width: Double) {
     print(width)
 }
 calcArea(width: 8)
-
-//Funktion mit einem Parameter und ohne Return-Wert, gibt nur einen Konsolenergebnis aufgrund des print-Befehls aus.
 
 func calcArea2(width: Double) -> Double {
     return width * width
