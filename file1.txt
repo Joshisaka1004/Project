@@ -1,0 +1,14 @@
+
+func calcArea(width: Double) {
+    print(width)
+}
+calcArea(width: 8)
+
+//Funktion mit einem Parameter und ohne Return-Wert, gibt nur einen Konsolenergebnis aufgrund des print-Befehls aus.
+
+func calcArea2(width: Double) -> Double {
+    return width * width
+}
+print(calcArea2(width: 8))
+
+//Hier haben wir einen Parameter und einen Return-Wert vom Datentyp Double; der Parameter width ist zugleich extern wie intern
